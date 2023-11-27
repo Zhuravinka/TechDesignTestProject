@@ -26,7 +26,7 @@ namespace CharacterController
 
     private void Start() 
     {
-        anim = GetComponent<Animator>();
+        anim = GetComponentInChildren<Animator>();
     }
     
     private void Update()
@@ -46,7 +46,7 @@ namespace CharacterController
 
         if (Input.GetButtonDown("Jump") && !isJumping)
         {
-            CreateDust();
+            
 
             isJumping = true;
 
@@ -159,7 +159,6 @@ namespace CharacterController
         {
             isJumping = false;
 
-            CreateDust();
         }
     }
 
@@ -172,11 +171,7 @@ namespace CharacterController
         isJumping = false;
     }
     
-    void CreateDust()
-    {
-        dust.Play();
+    
     }
-
-}
 
 }
