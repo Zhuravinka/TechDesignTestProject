@@ -165,7 +165,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wardrobes_0
+      name: wardrobe_0
       rect:
         serializedVersion: 2
         x: 281
@@ -173,7 +173,7 @@ TextureImporter:
         width: 957
         height: 739
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,7 +186,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wardrobes_1
+      name: wardrobe_1
       rect:
         serializedVersion: 2
         x: 1480
@@ -194,7 +194,7 @@ TextureImporter:
         width: 313
         height: 752
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -207,7 +207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wardrobes_2
+      name: wardrobe_2
       rect:
         serializedVersion: 2
         x: 515
@@ -215,7 +215,7 @@ TextureImporter:
         width: 530
         height: 914
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -228,7 +228,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wardrobes_3
+      name: wardrobe_3
       rect:
         serializedVersion: 2
         x: 1490
@@ -236,7 +236,7 @@ TextureImporter:
         width: 314
         height: 910
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -259,10 +259,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Wardrobes_3: 220634094
-      Wardrobes_1: -920784866
-      Wardrobes_0: 1337665999
-      Wardrobes_2: 2043244760
+      wardrobe_0: 1337665999
+      wardrobe_2: 2043244760
+      wardrobe_1: -920784866
+      wardrobe_3: 220634094
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

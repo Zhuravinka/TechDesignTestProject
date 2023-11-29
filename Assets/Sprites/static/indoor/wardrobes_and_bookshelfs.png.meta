@@ -165,7 +165,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wardrobes and Bookshelfs_0
+      name: lamp
       rect:
         serializedVersion: 2
         x: 910
@@ -173,7 +173,7 @@ TextureImporter:
         width: 165
         height: 200
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,7 +186,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wardrobes and Bookshelfs_1
+      name: shielf
       rect:
         serializedVersion: 2
         x: 308
@@ -194,7 +194,7 @@ TextureImporter:
         width: 326
         height: 306
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -207,7 +207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wardrobes and Bookshelfs_2
+      name: shielf_2
       rect:
         serializedVersion: 2
         x: 767
@@ -215,7 +215,7 @@ TextureImporter:
         width: 519
         height: 306
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -228,7 +228,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wardrobes and Bookshelfs_3
+      name: shielf_3
       rect:
         serializedVersion: 2
         x: 1375
@@ -236,7 +236,7 @@ TextureImporter:
         width: 288
         height: 278
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -249,7 +249,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wardrobes and Bookshelfs_4
+      name: wardrobe_1
       rect:
         serializedVersion: 2
         x: 47
@@ -257,7 +257,7 @@ TextureImporter:
         width: 574
         height: 473
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -270,7 +270,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wardrobes and Bookshelfs_5
+      name: wardrobe_2
       rect:
         serializedVersion: 2
         x: 738
@@ -278,7 +278,7 @@ TextureImporter:
         width: 574
         height: 473
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -291,7 +291,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wardrobes and Bookshelfs_6
+      name: wardrobe_3
       rect:
         serializedVersion: 2
         x: 1434
@@ -299,7 +299,7 @@ TextureImporter:
         width: 574
         height: 473
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -322,13 +322,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Wardrobes and Bookshelfs_1: 484004459
-      Wardrobes and Bookshelfs_3: 1108103715
-      Wardrobes and Bookshelfs_2: -583173321
-      Wardrobes and Bookshelfs_6: -1758572077
-      Wardrobes and Bookshelfs_4: 1184545393
-      Wardrobes and Bookshelfs_5: -1292629123
-      Wardrobes and Bookshelfs_0: 1205219049
+      lamp: 1205219049
+      wardrobe_2: -1292629123
+      shielf_2: -583173321
+      wardrobe_1: 1184545393
+      shielf_3: 1108103715
+      wardrobe_3: -1758572077
+      shielf: 484004459
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
