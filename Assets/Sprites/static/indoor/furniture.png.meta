@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b88cb81133843834db7e028118f9e455
+guid: ad4bd419998ab6b43abb886fec100caa
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -63,7 +63,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -101,77 +101,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: tvOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lamp
+      name: road
       rect:
         serializedVersion: 2
-        x: 910
-        y: 1491
-        width: 165
-        height: 200
+        x: 13
+        y: 938
+        width: 1000
+        height: 80
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc981f4cc8b86ad4da75b7fcf79fd962
-      internalID: 1205219049
+      spriteID: 82775566358279841baa2129dbbe4a11
+      internalID: -542869909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: shielf
+      name: ground
       rect:
         serializedVersion: 2
-        x: 308
-        y: 1032
-        width: 326
-        height: 306
+        x: 13
+        y: 887
+        width: 1000
+        height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,71 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a37a566fa0507ae47900e7ee8224c7c7
-      internalID: 484004459
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shielf_2
-      rect:
-        serializedVersion: 2
-        x: 767
-        y: 1030
-        width: 519
-        height: 306
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ace1eb750f55024e98e1f3af2b74f40
-      internalID: -583173321
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: shielf_3
-      rect:
-        serializedVersion: 2
-        x: 1375
-        y: 1037
-        width: 288
-        height: 278
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca43d33ee856fd84b9bf6d43e7704db6
-      internalID: 1108103715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: wardrobe_1
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 352
-        width: 574
-        height: 473
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d739553f91885604a9e703533ec7f473
-      internalID: 1184545393
+      spriteID: 787084016ae5d3c489c011dfab5c0335
+      internalID: -1917012745
       vertices: []
       indices: 
       edges: []
@@ -273,10 +150,10 @@ TextureImporter:
       name: wardrobe_2
       rect:
         serializedVersion: 2
-        x: 738
-        y: 352
-        width: 574
-        height: 473
+        x: 13
+        y: 495
+        width: 157
+        height: 377
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ee30991c28fbab4cb008bda6d5f4412
-      internalID: -1292629123
+      spriteID: fba6961e93519854d82d649fcadab4f6
+      internalID: -2139657489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wardrobe_3
+      name: sofa
       rect:
         serializedVersion: 2
-        x: 1434
-        y: 352
-        width: 574
-        height: 473
+        x: 179
+        y: 703
+        width: 425
+        height: 169
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,8 +182,176 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2027c77a6708aa44794af0f1cb1c3bb1
-      internalID: -1758572077
+      spriteID: 0a692eed8597cc640a8d42fdcf297804
+      internalID: -526463836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lamp
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 766
+        width: 83
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606e19689c0145840ba215e13ddf6791
+      internalID: 881977276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wardrobe_1
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 377
+        width: 157
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35332b06bddca514fb1ab7282eb24211
+      internalID: 95473029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: furniture_6
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 537
+        width: 144
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c79087662d4cf044987402b95bc0227
+      internalID: 153641761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wardrobe
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 430
+        width: 288
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eae8606ddfaa6f45a3832e8473a8cd1
+      internalID: 1561167934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shielf
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 201
+        width: 164
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a93679b70facfb41aab320ecc82d9b2
+      internalID: 1574313014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_1
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 25
+        width: 187
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c663d9cc62e6ea44c8c0aea3b259aad5
+      internalID: 1176000941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door_2
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 47
+        width: 111
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d0ff3d460e3a64e8d122c7e21e8f79
+      internalID: 1995417241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shielf_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 27
+        width: 260
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a412e5f03449c8e45a8ae1ea91d77688
+      internalID: 265718417
       vertices: []
       indices: 
       edges: []
@@ -322,13 +367,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      lamp: 1205219049
-      wardrobe_2: -1292629123
-      shielf_2: -583173321
-      wardrobe_1: 1184545393
-      shielf_3: 1108103715
-      wardrobe_3: -1758572077
-      shielf: 484004459
+      door_1: 1176000941
+      sofa: -526463836
+      lamp: 881977276
+      furniture_6: 153641761
+      wardrobe: 1561167934
+      wardrobe_2: -2139657489
+      door_2: 1995417241
+      shielf_2: 265718417
+      road: -542869909
+      ground: -1917012745
+      wardrobe_1: 95473029
+      shielf: 1574313014
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

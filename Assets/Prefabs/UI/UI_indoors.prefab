@@ -31,6 +31,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: scene_switcher, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 1106902850147813586, guid: 17ca781f48a630044ba4c7f88f5686fe, type: 3}
+      propertyPath: m_Name
+      value: event_system
+      objectReference: {fileID: 0}
     - target: {fileID: 1106902851436897992, guid: 17ca781f48a630044ba4c7f88f5686fe, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -97,7 +101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7248769433243278910, guid: 17ca781f48a630044ba4c7f88f5686fe, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.000034332275
+      value: 0.00002670288
       objectReference: {fileID: 0}
     - target: {fileID: 7253796361081849977, guid: 17ca781f48a630044ba4c7f88f5686fe, type: 3}
       propertyPath: m_AnchorMax.x

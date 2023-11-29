@@ -57,7 +57,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
-  m_Name: Movavi Grotesque Black SDF
+  m_Name: Movavi_Grotesque Black_SDF
   m_EditorClassIdentifier: 
   hashCode: 1830051397
   material: {fileID: 5431153965900892249}
